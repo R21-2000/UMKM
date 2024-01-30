@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        Wifapancong
+        Fresh Food
     </title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
@@ -12,7 +13,38 @@
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <!-- MOBILE NAV -->
+    <div class="mb-nav">
+        <div class="mb-move-item"></div>
+        <div class="mb-nav-item active">
+            <a href="#home">
+                <i class="bx bxs-home"></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#about">
+                <i class='bx bxs-wink-smile'></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#food-menu-section">
+                <i class='bx bxs-food-menu'></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#testimonial">
+                <i class='bx bxs-comment-detail'></i>
+            </a>
+        </div>
+    </div>
+    <!-- END MOBILE NAV -->
+    <!-- BACK TO TOP BTN -->
+    <a href="#home" class="back-to-top">
+        <i class="bx bxs-to-top"></i>
+    </a>
+    <!-- END BACK TO TOP BTN -->
     <!-- TOP NAVIGATION -->
     <div class="nav">
         <div class="menu-wrap">
@@ -22,25 +54,35 @@
                 </div>
             </a>
             <div class="menu h-xs">
+                <a href="#home">
+                    <div class="menu-item active">
+                        Home
+                    </div>
+                </a>
+                <a href="#about">
+                    <div class="menu-item">
+                        About
+                    </div>
+                </a>
                 <a href="#food-menu-section">
                     <div class="menu-item">
                         Menu
                     </div>
                 </a>
-                <a href="#contact">
-                    <div class="menu-item">
-                        Kontak
-                    </div>
-                </a>
                 <a href="#testimonial">
                     <div class="menu-item">
-                        Testi
+                        Testimonials
                     </div>
                 </a>
-            </div>        
+            </div>
+            <div class="right-menu">
+                <div class="cart-btn">
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+            </div>
         </div>
     </div>
-    <!-- End nav -->
+    <!-- END TOP NAVIGATION -->
     <!-- SECTION HOME -->
     <section id="home" class="fullheight align-items-center bg-img bg-img-fixed"
         style="background-image: url(assets/brooke-lark-08bOYnH_r_E-unsplash.jpg);">
@@ -49,7 +91,7 @@
                 <div class="col-6 col-xs-12">
                     <div class="slogan">
                         <h1 class="left-to-right play-on-scroll">
-                            Wifapancong
+                            Freshfood
                         </h1>
                         <p class="left-to-right play-on-scroll delay-2">
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae eveniet ullam perferendis
@@ -405,7 +447,7 @@
     </section>
     <!-- END TESTIMONIAL SECTION -->
     <!-- FOOTER SECTION -->
-    <section id="contact" class="footer bg-img" style="background-image: url(assets/nordwood-themes-pYWrdKO5ksI-unsplash.jpg);">
+    <section class="footer bg-img" style="background-image: url(assets/nordwood-themes-pYWrdKO5ksI-unsplash.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-6 col-xs-12">

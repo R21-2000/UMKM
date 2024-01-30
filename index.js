@@ -1,3 +1,5 @@
+// back tot top
+
 let backToTopBtn = document.querySelector('.back-to-top')
 
 window.onscroll = () => {
